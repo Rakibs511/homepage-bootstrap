@@ -1,0 +1,24 @@
+#menu i,i{
+    font-size: 25px !important;
+    margin-right:10px ;
+}
+main{
+    height: 100vh;
+    padding-top: 86px;
+}
+
+main div a,#menu a{
+    padding: 10px;
+    transition: .1s;
+    border-radius: 5px;
+}
+main div a:hover,#menu a:hover{
+    background-color: rgba(225, 160, 39, 0.22);
+}
+
+#profile-picture{
+    margin-right: 5px;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50px;
+}

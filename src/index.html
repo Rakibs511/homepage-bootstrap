@@ -1,15 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/bootsrap.config.js"></script>
     <title>Home Page</title>
-    <script type="module" src="./js/main.js"></script>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
-    </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto me-md-5">
+            <li class="nav-item me-5 py-md-2">
+              <a href="#" class="nav-link"
+                >Balance : <span class="text-primary">$125</span></a
+              >
+            </li>
+            <li class="nav-item dropdown me-5">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               <img id="profile-picture" src="picture/Rakib.jpg" alt="profile Picture"> Alex</a
+              >
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a class="dropdown-item text-white" href="#">Profile</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#">Settings</a>
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Logout</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+              </ul>
+            </li>
+            <li class="d-flex flex-column d-lg-none">
+              <hr class="text-warning" />
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-dashboard"></i>Dashboard</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-legal"></i>Lookup</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-file"></i>Files</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-magnet"></i>Logs</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-credit-card"></i>Buy Credit</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-tint"></i>Integration</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-user"></i>My Profile</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="d-lg-flex d-sm-block pt-5">
+        <!-- side bar -->
+      <div style="width: 360px" class="d-none d-lg-flex flex-column bg-black p-4 pt-5">
+        <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-dashboard"></i>Dashboard</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-legal"></i>Lookup</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-file"></i>Files</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-magnet"></i>Logs</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-credit-card"></i>Buy Credit</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-tint"></i>Integration</a
+              >
+              <a class="text-white mb-2 text-decoration-none" href="#"
+                ><i class="fa fa-user"></i>My Profile</a
+              >
+      </div>
+
+      <!-- Main Body -->
+      <div class="bg-info p-2 p-lg-5 w-100">main body</div>
+    </main>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

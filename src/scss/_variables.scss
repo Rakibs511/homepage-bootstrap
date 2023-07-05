@@ -1,0 +1,22 @@
+$orange: #ffa500;
+$black: #000000;
+$red: #dc3545;
+$yellow: #ffc107;
+$green: #198754;
+$cyan: #0dcaf0;
+
+$primary: orange;
+$secondary: black;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
