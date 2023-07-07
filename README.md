@@ -1,3 +1,7 @@
+<a href="https://rakibs511.github.io/homepage-bootstrap/" target="_blank">
+<img src="https://github.com/Rakibs511/homepage-bootstrap/blob/main/src/picture/preview.png" />
+</a>
+
 # WebSMUCT
 
 A homepage built with HTML, CSS, JavaScript, and Bootstrap using Vite.
