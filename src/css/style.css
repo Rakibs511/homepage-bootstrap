@@ -1,24 +1,63 @@
-#menu i,i{
-    font-size: 25px !important;
-    margin-right:10px ;
+#logo {
+  width: 140px;
+  margin-left: 1.5rem;
+  user-select: none !important;
 }
-main{
-    height: 100vh;
-    padding-top: 86px;
+#menu i,
+i {
+  font-size: 25px !important;
+  margin-right: 10px;
 }
-
-main div a,#menu a{
-    padding: 10px;
-    transition: .1s;
-    border-radius: 5px;
-}
-main div a:hover,#menu a:hover{
-    background-color: rgba(225, 160, 39, 0.22);
+main {
+  height: 100vh;
+  padding-top: 86px;
 }
 
-#profile-picture{
-    margin-right: 5px;
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 50px;
+main div a,
+#menu a {
+  padding: 10px;
+  transition: 0.1s;
+  border-radius: 5px;
+}
+main div a:hover,
+#menu a:hover {
+  background-color: rgba(225, 160, 39, 0.22);
+}
+
+#profile-picture {
+  margin-right: 5px;
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+#side-bar {
+  padding-top: 80px !important;
+}
+
+pre {
+  font-size: 100% !important;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+}
+
+
+/* Bottom section  */
+.bottom-section {
+  margin: 0px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bottom-section {
+    margin-top: 130px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bottom-section {
+    margin-top: 0px !important;
+  }
 }
