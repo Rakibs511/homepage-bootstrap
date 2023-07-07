@@ -13,7 +13,9 @@
   </head>
   <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top drop-shadow">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top drop-shadow"
+    >
       <div class="container-fluid">
         <a href="#" class="user-select-none"
           ><img id="logo" src="picture/logo.svg" alt="WebSMUCT"
@@ -150,7 +152,7 @@
                   class="h3 mt-2 p-4 rounded-3"
                   style="background-color: rgba(255, 166, 0, 0.132)"
                 >
-                  Your Credit Card's 
+                  Your Credit Card's
                 </h3>
                 <div class="row gap-3 gap-md-0 ms-2 h-100 w-100">
                   <!-- card 1 -->
@@ -232,13 +234,83 @@
 
         <!-- bottom section -->
 
-        <div class="bottom-section row bg-info h-50">
-            <div class="col-lg-6" style="height: 300px;">
-                Toggle Text Section
-            </div>
-            <div class="col-lg-6" style="height: 300px;">
-                carousal section
-            </div>
+        <div class="bottom-section row h-50 p-4">
+          <div class="d-flex col-lg-6 h-100 align-items-center">
+            <ul class="list-unstyled p-lg-3 pt-4">
+              <li class="mb-3 mb-lg-5">
+                <div class="d-flex gap-3 align-items-center form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                    style="width: 70px; height: 30px;"
+                  />
+                  <label class="form-check-label h3 m-0" for="flexSwitchCheckDefault"
+                    >input Lorem ipsum dolor sit amex.</label
+                  >
+                </div>
+              </li>
+              <li class="mb-3 mb-lg-5">
+                <div class="d-flex gap-3 align-items-center form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                    style="width: 70px; height: 30px;"
+                  />
+                  <label class="form-check-label h3 m-0" for="flexSwitchCheckDefault"
+                    >input Lorem ipsum dolor sit amex.</label
+                  >
+                </div>
+              </li>
+              <li class="mb-3 mb-lg-5">
+                <div class="d-flex gap-3 align-items-center form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                    style="width: 70px; height: 30px;"
+                  />
+                  <label class="form-check-label h3 m-0" for="flexSwitchCheckDefault"
+                    >input Lorem ipsum dolor sit amex.</label
+                  >
+                </div>
+              </li>
+              
+              
+            </ul>
+          </div>
+
+          <!-- carousal Section -->
+          <div class="col-lg-6 ">
+        
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner rounded-5">
+                  <div class="carousel-item active">
+                    <img src="picture/carousal_3.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="picture/carousal_2.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="picture/carousal_1.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        
+        </div>
         </div>
       </div>
     </main>
