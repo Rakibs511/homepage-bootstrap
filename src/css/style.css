@@ -51,12 +51,13 @@ pre {
 /* Bottom section  */
 .bottom-section {
   margin: 0px !important;
+  margin-bottom: 60px !important;
 }
 
 
 @media only screen and (max-width: 1200px) {
   .bottom-section {
-    margin-top: 130px !important;
+    margin-top: 80px !important;
   }
 }
 
@@ -81,4 +82,13 @@ pre {
 ::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: orange;
+}
+
+
+.toggle-on {
+    color: rgba(0, 0, 0, 0.455) !important;
+}
+.toggle-off {
+   
+    color: black !important;
 }
