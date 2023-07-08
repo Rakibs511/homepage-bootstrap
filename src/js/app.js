@@ -7,9 +7,7 @@ switches.forEach(switchBtn => {
 
         if (isChecked) {
             targetElement.classList.add('toggle-on');
-            targetElement.classList.remove('toggle-off');
         } else {
-            targetElement.classList.add('toggle-off');
             targetElement.classList.remove('toggle-on');
         }
     });

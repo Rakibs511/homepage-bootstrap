@@ -21,6 +21,7 @@ main div a,
   padding: 10px;
   transition: 0.1s;
   border-radius: 5px;
+  transition: .5s;
 }
 main div a:hover,
 #menu a:hover {
@@ -45,6 +46,15 @@ pre {
 
 .text-shadow {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+}
+
+.card{
+    transition: 1s ease;
+}
+.card:hover{
+    background-color: rgba(255, 166, 0, 0.039) !important;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.377);
+    transition: .5s ease;
 }
 
 
@@ -84,11 +94,14 @@ pre {
     background-color: orange;
 }
 
-
+.form-check-label{
+    transition: .4s ease-in-out !important;
+}
 .toggle-on {
     color: rgba(0, 0, 0, 0.455) !important;
+    font-style: oblique;
+    font-weight: 100 !important;
 }
 .toggle-off {
-   
     color: black !important;
 }
